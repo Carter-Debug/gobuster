@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SiteName — Learn, Build, Monetize</title>
+  <meta name="description" content="A simple, fast website to publish content and monetize with ads, affiliates, and products.">
+  <link rel="canonical" href="/">
+  <meta property="og:title" content="SiteName — Learn, Build, Monetize">
+  <meta property="og:description" content="A simple, fast website to publish content and monetize with ads, affiliates, and products.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- TODO: AdSense: uncomment and set your publisher id
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx" crossorigin="anonymous"></script>
+  -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="container flex between center-y">
+      <a class="brand" href="/">SiteName</a>
+      <nav class="nav">
+        <a href="/blog/">Blog</a>
+        <a href="/products/">Products</a>
+        <a href="/resources/">Resources</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Publish. Grow. Monetize.</h1>
+        <p class="lead">Launch a clean, fast website for your ideas and add revenue streams with ads, affiliates, and digital products.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="/blog/">Read the Blog</a>
+          <a class="btn" href="#subscribe">Subscribe</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="ads container">
+      <!-- TODO: AdSense in-article or responsive block
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-xxxxxxxxxxxxxxxx" data-ad-slot="xxxxxxxxxx" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      -->
+    </section>
+
+    <section class="container grid two" aria-labelledby="latest-posts">
+      <div>
+        <h2 id="latest-posts">Latest posts</h2>
+        <article class="card">
+          <h3><a href="/blog/post-1.html">How to pick a niche and validate demand</a></h3>
+          <p>Simple steps to choose a topic that attracts readers and revenue.</p>
+        </article>
+        <article class="card">
+          <h3><a href="/blog/post-2.html">7 quick ways to monetize a new site</a></h3>
+          <p>From affiliates to payment links—what works on day one.</p>
+        </article>
+        <p><a class="more" href="/blog/">See all posts →</a></p>
+      </div>
+      <div>
+        <h2>Popular resources</h2>
+        <ul class="list">
+          <li><a href="https://amzn.to/example" rel="sponsored nofollow" target="_blank">Starter gear (affiliate)</a></li>
+          <li><a href="https://example.com/hosting?ref=yourcode" rel="sponsored nofollow" target="_blank">Reliable hosting (affiliate)</a></li>
+          <li><a href="https://example.com/tool?via=yourcode" rel="sponsored nofollow" target="_blank">SEO toolkit (affiliate)</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="subscribe" class="newsletter">
+      <div class="container">
+        <h2>Get new posts in your inbox</h2>
+        <p class="muted">No spam. Unsubscribe anytime.</p>
+        <!-- TODO: Paste your Mailchimp/Buttondown/Substack embed here -->
+        <form class="inline-form" action="#" method="post" onsubmit="return false;">
+          <input type="email" name="email" placeholder="you@example.com" required>
+          <button class="btn primary" type="submit" disabled>Subscribe</button>
+        </form>
+        <p class="fine">Activate by replacing this with your real newsletter form.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container flex between center-y">
+      <p class="muted">© <span id="year"></span> SiteName</p>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <!-- TODO: Analytics (e.g., GA4) -->
+</body>
+</html>
