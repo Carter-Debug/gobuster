@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — SiteName</title>
+  <meta name="description" content="Get in touch with SiteName.">
+  <link rel="canonical" href="/contact.html">
+  <meta property="og:title" content="Contact — SiteName">
+  <meta property="og:description" content="Get in touch with SiteName.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/contact.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container flex between center-y">
+      <a class="brand" href="/">SiteName</a>
+      <nav class="nav">
+        <a href="/blog/">Blog</a>
+        <a href="/products/">Products</a>
+        <a href="/resources/">Resources</a>
+        <a href="/contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Contact</h1>
+      <p class="muted">Use the form below to send a message. This placeholder uses a static form service.</p>
+      <form class="card" action="https://formspree.io/f/yourformid" method="POST">
+        <label>Name<br>
+          <input type="text" name="name" required style="width:100%; padding:12px; border:1px solid var(--border); border-radius:8px;">
+        </label>
+        <br>
+        <label>Email<br>
+          <input type="email" name="email" required style="width:100%; padding:12px; border:1px solid var(--border); border-radius:8px;">
+        </label>
+        <br>
+        <label>Message<br>
+          <textarea name="message" rows="6" required style="width:100%; padding:12px; border:1px solid var(--border); border-radius:8px;"></textarea>
+        </label>
+        <br>
+        <button class="btn primary" type="submit">Send</button>
+        <p class="fine">Replace the form action with your own endpoint (Formspree/StaticKit/etc.).</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container flex between center-y">
+      <p class="muted">© <span id="year"></span> SiteName</p>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
