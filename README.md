@@ -39,7 +39,7 @@ This is a fast, build-free HTML/CSS/JS website scaffold designed to launch quick
 - Mark links with `rel="sponsored nofollow"`.
 
 3) Digital Products
-- Create Stripe Payment Links (or LemonSqueezy/Gumroad) and replace the placeholders on `products/index.html`.
+- Create Keyzen Payment Links (or LemonSqueezy/Gumroad) and replace the placeholders on `products/index.html`.
 
 4) Newsletter
 - Paste your Mailchimp/Buttondown/Substack embed form in the Newsletter section of `index.html`.
